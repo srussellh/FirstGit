@@ -54,14 +54,22 @@
 		022AC032227CE46200EF28FB /* GitLesson */ = {
 			isa = PBXGroup;
 			children = (
-				022AC033227CE46200EF28FB /* AppDelegate.swift */,
+				028A3076227CEB7400C38A5E /* Resources */,
 				022AC035227CE46200EF28FB /* ViewController.swift */,
 				022AC037227CE46200EF28FB /* Main.storyboard */,
+			);
+			path = GitLesson;
+			sourceTree = "<group>";
+		};
+		028A3076227CEB7400C38A5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				022AC033227CE46200EF28FB /* AppDelegate.swift */,
 				022AC03A227CE46200EF28FB /* Assets.xcassets */,
 				022AC03C227CE46200EF28FB /* LaunchScreen.storyboard */,
 				022AC03F227CE46200EF28FB /* Info.plist */,
 			);
-			path = GitLesson;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GitLesson/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GitLesson/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GitLesson/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GitLesson/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
